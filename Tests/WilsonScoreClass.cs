@@ -25,7 +25,7 @@
                     for (uint total = 1; total < 100; ++total)
                     for (uint up = 0; up <= total; ++up)
                     {
-                        var myScore = WilsonScore.Calculate(up, total, confidence);
+                        var myScore = WilsonScore.CalculateWithZScore(up, total, z);
                         var theirScore = Wilson.Score(up, total, z);
                         var difference = Math.Abs(theirScore - myScore);
                         Assert.IsTrue(
