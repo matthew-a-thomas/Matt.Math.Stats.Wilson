@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>Matt.Math.Stats.Wilson</Title>
+    <Description>C# implementation of the Wilson score</Description>
+    <Copyright>2017 Matthew Thomas</Copyright>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix />
+    <Company />
+    <Authors>Matthew Thomas</Authors>
+    <PackageLicenseUrl>https://github.com/matthew-a-thomas/Matt.Math.Stats.Wilson/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/matthew-a-thomas/Matt.Math.Stats.Wilson</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/matthew-a-thomas/Matt.Math.Stats.Wilson</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="3.20.0" />
+  </ItemGroup>
+</Project>
