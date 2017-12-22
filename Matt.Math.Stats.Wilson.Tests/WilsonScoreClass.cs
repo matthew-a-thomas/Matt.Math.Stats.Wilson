@@ -1,10 +1,10 @@
-﻿namespace Tests
+﻿namespace Matt.Math.Stats.Wilson.Tests
 {
     using System;
+    using global::WilsonScore;
     using MathNet.Numerics.Distributions;
-    using Matt.Math.Stats.Wilson;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using WilsonScore;
+    using Wilson;
 
     [TestClass]
     public class WilsonScoreClass
